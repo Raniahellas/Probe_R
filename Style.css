@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(157, 190, 190);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+button{
+    text-align: center;
+    height: auto;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+
+button :hover {
+    background-color: darkblues;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 0cqmax;
+}
+
+p {
+    line-height: 100%;
+    padding: 40px;
+    font-size: 30px;
+}
+
+img {
+    height: auto;
+    width: 300px;
+    position: absolute;
+    top: 100px;  /* Moves down from the top */
+    left: 1500px;  /* Moves right from the left */
+}
+
